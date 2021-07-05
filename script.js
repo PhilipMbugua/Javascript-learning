@@ -99,6 +99,7 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
 
 console.log(wordBlanks(" dog", " big", " ran", "quickly"));
 
+//modifying data in array using indexes
 var myArray = [50, 60, 70];
 
 var myData = myArray[0];
@@ -108,3 +109,24 @@ var ourArray = [18, 64, 99];
 ourArray[1] = 65;
 
 console.log(ourArray);
+
+//Accessing multi-dimensional arrays with indexes
+
+var myArray2 = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+//trying to access 8
+var myData = myArray2[2][1];
+console.log(myData);
+
+//manipulating arrays with push()
+//push() function is for appending data to arrays
+
+var ourArray3 = ["Stimson", "J", "cat", 5];
+ourArray3.push(["happy", "joy"]);
+
+console.log(ourArray3);
