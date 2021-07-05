@@ -131,4 +131,10 @@ ourArray3.push(["happy", "joy"]);
 
 console.log(ourArray3);
 
+var myArray3 = ["John", 23, ["cat", 2]];
+
+myArray3.push(["dog", 5]);
+
+console.log(myArray3);
+
 //manipulating arrays with pop()
