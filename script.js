@@ -130,3 +130,5 @@ var ourArray3 = ["Stimson", "J", "cat", 5];
 ourArray3.push(["happy", "joy"]);
 
 console.log(ourArray3);
+
+//manipulating arrays with pop()
